@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[c first code]]></title>
+    <url>%2F2019%2F07%2F18%2Fc-first-code%2F</url>
+    <content type="text"><![CDATA[数据链表123456789101112131415161718192021222324#include &lt;stdio.hvoid minmax(int a[], int len, int *min, int *max);int main(void)&#123; int a[] = &#123;1, 2, 3, 4, 5, 6, 7,8&#125;; int min, max; minmax(a, sizeof(a)/sizeof(a[0]), &amp;min, &amp;max); printf("min = %d, max = %d\n", min, max); return 0;&#125;void minmax(int a[], int len, int *min, int *max)&#123; int i; *min = *max = a[0]; for (i = 1; i &lt; len; i++) &#123; if(a[i] &lt; *min) *min = a[i]; if(a[i] &gt; *max) *max = a[i]; &#125;&#125;]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[第一]]></title>
     <url>%2F2019%2F07%2F13%2F%E7%AC%AC%E4%B8%80%2F</url>
-    <content type="text"><![CDATA[##第一节 – ##第二节 –]]></content>
+    <content type="text"><![CDATA[Welcome 第一章第一节第二章第一节]]></content>
   </entry>
   <entry>
     <title><![CDATA[Hello World]]></title>
